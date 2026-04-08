@@ -4,9 +4,14 @@
 
 ## 推荐
 
+- [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
 - [Multica](items/multica.md) - 一个把软件开发任务分配给编程 Agent、跟踪执行过程，并沉淀团队可复用技能的开源平台。
 
 ## 分类浏览
+
+### 工程工作流
+
+- [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
 
 ### 编程 Agent
 
