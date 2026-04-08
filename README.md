@@ -5,6 +5,7 @@
 ## 推荐
 
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
+- [Claude Managed Agents](items/claude-managed-agents.md) - Anthropic 提供的云端托管 Agent 基础设施，帮助团队更快把自动修 bug、专项开发和长时任务 Agent 部署到生产环境。
 - [Multica](items/multica.md) - 一个把软件开发任务分配给编程 Agent、跟踪执行过程，并沉淀团队可复用技能的开源平台。
 
 ## 从哪里开始
@@ -18,6 +19,7 @@
 
 适合想找能直接参与写代码、改代码、跟任务流结合的 AI agent。
 
+- [Claude Managed Agents](items/claude-managed-agents.md) - Anthropic 提供的云端托管 Agent 基础设施，帮助团队更快把自动修 bug、专项开发和长时任务 Agent 部署到生产环境。
 - [HappyClaw](items/happyclaw.md) - 一个基于 Claude Code 运行时构建的自托管多用户 AI Agent 系统，支持 Web 与多种 IM 渠道接入。
 - [Multica](items/multica.md) - 一个把软件开发任务分配给编程 Agent、跟踪执行过程，并沉淀团队可复用技能的开源平台。
 
@@ -26,6 +28,17 @@
 适合想统一管理本地 AI CLI、provider、MCP、代理和工程流程配置的工具。
 
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
+
+## 后续补充方向
+
+- `AI IDEs / Editors`: 待补充分类说明。
+- `Code Review`: 待补充分类说明。
+- `Debugging`: 待补充分类说明。
+- `Testing`: 待补充分类说明。
+- `Documentation`: 待补充分类说明。
+- `Code Search / Refactoring`: 待补充分类说明。
+- `DevOps / CI / Release`: 待补充分类说明。
+- `Prompt Patterns for Coding`: 待补充分类说明。
 
 ## 收录标准
 
