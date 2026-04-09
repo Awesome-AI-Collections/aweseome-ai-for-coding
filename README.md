@@ -72,6 +72,7 @@
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
+- [AutoCLI](items/autocli.md) - 一个让 AI Agent 通过单条命令读取网站、桌面应用和本地 CLI 的 Rust 工具。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
 - [awesome-connected-cli](items/awesome-connected-cli.md) - 一个把抓取、AI 处理和多平台输出串成一条龙自动化的 CLI 工具箱。
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
@@ -99,17 +100,26 @@
 - [wechat_articles_spider](items/wechat-articles-spider.md) - 一个面向微信公众号的小规模爬取工具，不依赖抓包，支持近两天更新、历史文章与关键词评分检索。
 - [XCrawl](items/xcrawl.md) - 一个面向网页与站点数据获取的托管 API 服务，可直接配合 OpenClaw 使用，适合不想自己维护浏览器自动化和反爬细节的团队。
 
+### AI IDEs / Editors
+
+- [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
+
+### Code Review
+
+- [PR-Agent](items/pr-agent.md) - Qodo 社区维护的开源 PR 审查 agent，可在 GitHub、GitLab 等平台自动生成 review、improve 和 ask 反馈。
+
+### Documentation
+
+- [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
+
 ### 测试
 
 - [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
 
 ## 后续补充方向
 
-- `AI IDEs / Editors`: 待补充分类说明。
-- `Code Review`: 待补充分类说明。
 - `Debugging`: 待补充分类说明。
 - `Testing`: 待补充分类说明。
-- `Documentation`: 待补充分类说明。
 - `Code Search / Refactoring`: 待补充分类说明。
 - `DevOps / CI / Release`: 待补充分类说明。
 - `Prompt Patterns for Coding`: 待补充分类说明。
