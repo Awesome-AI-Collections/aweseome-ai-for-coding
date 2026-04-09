@@ -71,6 +71,7 @@
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
+- [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
 - [awesome-connected-cli](items/awesome-connected-cli.md) - 一个把抓取、AI 处理和多平台输出串成一条龙自动化的 CLI 工具箱。
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
