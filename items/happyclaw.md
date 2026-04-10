@@ -1,7 +1,7 @@
 ---
 title: "HappyClaw"
 slug: "happyclaw"
-info_type: "aweseome-ai-for-coding"
+info_type: "awesome-ai-for-coding"
 entity_type: "tool"
 category: "编程 Agent"
 featured: false

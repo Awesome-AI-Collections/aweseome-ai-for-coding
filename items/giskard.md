@@ -1,7 +1,7 @@
 ---
 title: "Giskard"
 slug: "giskard"
-info_type: "aweseome-ai-for-coding"
+info_type: "awesome-ai-for-coding"
 entity_type: "tool"
 category: "测试"
 featured: false

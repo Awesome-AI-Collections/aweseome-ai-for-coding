@@ -1,7 +1,7 @@
 ---
 title: "n8n-as-code"
 slug: "n8n-as-code"
-info_type: "aweseome-ai-for-coding"
+info_type: "awesome-ai-for-coding"
 entity_type: "tool"
 category: "工程工作流"
 featured: true

@@ -1,7 +1,7 @@
 ---
 title: "PR-Agent"
 slug: "pr-agent"
-info_type: "aweseome-ai-for-coding"
+info_type: "awesome-ai-for-coding"
 entity_type: "tool"
 category: "Code Review"
 featured: false
