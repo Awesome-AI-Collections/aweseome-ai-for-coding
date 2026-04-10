@@ -82,6 +82,7 @@
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
+- [Apify MCP Server](items/apify-mcp-server.md) - 一个把 Apify Store 里的抓取器、爬虫和自动化工具开放给 AI agents 调用的 MCP server，适合在平台没开放 API 时补上网页级数据连接能力。
 - [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
 - [AutoCLI](items/autocli.md) - 一个让 AI Agent 通过单条命令读取网站、桌面应用和本地 CLI 的 Rust 工具。
 - [Automagik Omni](items/automagik-omni.md) - 一个为 AI agents 提供 WhatsApp、Discord、Telegram 等多渠道接入的事件驱动平台，适合做跨社媒和消息渠道的统一 Agent 接入层。
@@ -104,6 +105,7 @@
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [Helicone](items/helicone.md) - 一个开源 AI Gateway 与 LLM 可观测性平台，适合统一接入多模型、追踪成本延迟并管理 Prompt。
+- [Higress](items/higress.md) - 一个来自阿里体系的 AI Gateway，可统一管理 LLM API 与 MCP API，并把 OpenAPI 服务快速托管成可供 AI 调用的远程工具层。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [K8sGPT](items/k8sgpt.md) - 一个把 Kubernetes 集群问题翻译成自然语言的开源诊断工具，适合 SRE 和平台团队加速排障。
 - [Keep](items/keep.md) - 开源 AIOps 与告警管理平台，适合 SRE 和平台团队做告警聚合、去重、关联、富化与 AI 总结。
@@ -116,6 +118,7 @@
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
+- [openapi-to-mcpserver](items/openapi-to-mcpserver.md) - 一个把 OpenAPI 文档自动转换成 Higress 远程 MCP server 配置的工具，适合把 Amazon、Alibaba、Shopify 等平台 API 快速变成 AI 可调用能力。
 - [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
 - [OpenLIT](items/openlit.md) - 开源 AI 工程平台，覆盖 LLM 可观测性、评测、规则引擎、Prompt 管理和 GPU 监控。
