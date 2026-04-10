@@ -33,6 +33,7 @@
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
 - [Get Shit Done](items/get-shit-done.md) - 一个面向 Claude Code、Codex、Cursor 等编码助手的 meta-prompting、context engineering 和 spec-driven development 系统，重点解决长上下文里的 context rot 问题。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
+- [gstack](items/gstack.md) - 一个把 Claude Code 组织成虚拟工程团队的 agentic skills 与软件工厂框架，用一组 slash commands 把产品思考、规划、评审、QA、安全审计和发布串成端到端研发流程。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [LangChain](items/langchain.md) - 最常见的 LLM 应用编排框架之一，适合搭建 Agent、RAG 和工具调用链路。
@@ -100,6 +101,7 @@
 - [Automagik Omni](items/automagik-omni.md) - 一个为 AI agents 提供 WhatsApp、Discord、Telegram 等多渠道接入的事件驱动平台，适合做跨社媒和消息渠道的统一 Agent 接入层。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
 - [awesome-connected-cli](items/awesome-connected-cli.md) - 一个把抓取、AI 处理和多平台输出串成一条龙自动化的 CLI 工具箱。
+- [BMad Method](items/bmad-method.md) - 一个 AI-driven agile development 框架与模块生态，通过专家代理、结构化工作流和 scale-adaptive 规划，把分析、架构、开发、测试和部署串成可扩展的软件工程流程。
 - [Botpress](items/botpress.md) - 一个用于搭建 AI 聊天机器人和对话工作流的平台，适合开发客服与助手类应用。
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
 - [claude-squad](items/claude-squad.md) - 一个用于管理 Claude 小分队的多会话协作工具，适合统一调度多个 Claude 实例。
@@ -110,14 +112,17 @@
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
 - [CodePilot](items/codepilot.md) - 一个多模型 AI Agent 桌面客户端，支持多 provider、MCP、Skills、文件浏览、Git 面板和远程桥接，适合把编码型 Agent 作为日常桌面工作台来用。
 - [Composio](items/composio.md) - 一个给 AI agents 提供 1000+ toolkits、MCP 和 SaaS 动作能力的开源 SDK 平台，适合做销售、客服、运营自动化编排。
+- [Compound Engineering Plugin](items/compound-engineering-plugin.md) - 一个把 compound engineering 方法落成插件和跨平台安装工具的技能市场，通过 brainstorm、plan、work、review、compound 五段式循环，把每次工程工作沉淀成未来可复用的能力。
 - [Conductor](items/conductor.md) - 一个原生 macOS 编码 Agent 编排工作台，帮助开发者在本机为 Claude Code 和 Codex 创建隔离 worktree，会话可并行运行，并在同一界面里集中查看进度、审查改动与合并结果。
 - [Context7](items/context7.md) - 一个为 AI 编程工具提供最新第三方库文档上下文的服务，帮助代码生成保持资料新鲜。
 - [CopilotKit](items/copilotkit.md) - 一个帮助开发者在应用里快速集成 Copilot 式助手的框架。
 - [Coroot](items/coroot.md) - 一个带 AI 可操作洞察的开源可观测性平台，适合 SRE 和后端团队做 RCA、SLO 和成本追踪。
 - [dmux](items/dmux.md) - 一个基于 Git worktree 的开发环境复用器，帮助并行 AI 开发时平滑切换隔离环境。
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
+- [Everything Claude Code](items/everything-claude-code.md) - 一个面向 Claude Code、Codex、OpenCode 等 agent harness 的高性能工程化系统，整合 skills、hooks、memory、持续学习、安全扫描和 token optimization，帮助团队长期稳定地用 AI 写软件。
 - [Get Shit Done](items/get-shit-done.md) - 一个面向 Claude Code、Codex、Cursor 等编码助手的 meta-prompting、context engineering 和 spec-driven development 系统，重点解决长上下文里的 context rot 问题。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
+- [gstack](items/gstack.md) - 一个把 Claude Code 组织成虚拟工程团队的 agentic skills 与软件工厂框架，用一组 slash commands 把产品思考、规划、评审、QA、安全审计和发布串成端到端研发流程。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [Helicone](items/helicone.md) - 一个开源 AI Gateway 与 LLM 可观测性平台，适合统一接入多模型、追踪成本延迟并管理 Prompt。
 - [Higress](items/higress.md) - 一个来自阿里体系的 AI Gateway，可统一管理 LLM API 与 MCP API，并把 OpenAPI 服务快速托管成可供 AI 调用的远程工具层。
@@ -135,6 +140,7 @@
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
 - [Nezha](items/nezha.md) - 一个 Agent-First 的轻量桌面应用，用来在多个项目间并行运行 Claude Code 和 Codex，并把任务跟踪、终端、会话回放、代码浏览和 Git 工作流整合到同一个界面里。
+- [oh-my-claudecode](items/oh-my-claudecode.md) - 一个面向 Claude Code 的零学习曲线多 Agent 编排插件，提供 `/team`、`/autopilot`、`/deep-interview` 等技能和 CLI worker 流程，把规划、执行、验证和多模型协作收进统一工作流。
 - [openapi-to-mcpserver](items/openapi-to-mcpserver.md) - 一个把 OpenAPI 文档自动转换成 Higress 远程 MCP server 配置的工具，适合把 Amazon、Alibaba、Shopify 等平台 API 快速变成 AI 可调用能力。
 - [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
@@ -160,6 +166,7 @@
 
 - [Cursor](items/cursor.md) - 一个 AI 原生代码编辑器与开发工作台，提供智能体、代码审查、Tab 自动补全、云端 Agent 和多模型选择，支持从协作编辑到更自主的端到端开发。
 - [Google Antigravity](items/google-antigravity.md) - 一个面向 agent-first 时代的 AI IDE 与开发平台，强调跨编辑器、终端、浏览器的多 Agent 协作与任务编排，提供上下文感知的智能编辑体验。
+- [HumanLayer / CodeLayer](items/humanlayer.md) - HumanLayer 团队推出的 CodeLayer 开源 AI IDE，围绕 Claude Code 提供键盘优先、多会话并行、worktree 与云 worker 编排，以及 advanced context engineering 工作流。
 - [Kiro](items/kiro.md) - 一个强调 spec-driven 开发的 agentic AI 开发环境，主打把需求与规格转化为可执行的工程流程，并在 IDE 内完成从原型到生产的闭环。
 - [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
 - [Trae](items/trae.md) - 一个 AI 原生 IDE / 编码工作台，提供 IDE 模式与更自主的 SOLO / Builder 模式，支持多 Agent 协作、上下文理解和从需求到交付的开发流程。
