@@ -84,6 +84,7 @@
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
 - [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
 - [AutoCLI](items/autocli.md) - 一个让 AI Agent 通过单条命令读取网站、桌面应用和本地 CLI 的 Rust 工具。
+- [Automagik Omni](items/automagik-omni.md) - 一个为 AI agents 提供 WhatsApp、Discord、Telegram 等多渠道接入的事件驱动平台，适合做跨社媒和消息渠道的统一 Agent 接入层。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
 - [awesome-connected-cli](items/awesome-connected-cli.md) - 一个把抓取、AI 处理和多平台输出串成一条龙自动化的 CLI 工具箱。
 - [Botpress](items/botpress.md) - 一个用于搭建 AI 聊天机器人和对话工作流的平台，适合开发客服与助手类应用。
@@ -94,6 +95,7 @@
 - [Cloak Browser](items/cloak-browser.md) - 一个面向 AI 自动化的隐私浏览器，主打更强的防封禁与隔离能力。
 - [cmux](items/cmux.md) - 一个面向 macOS 的多智能体终端，可在大屏上同时监控多个 AI 会话的运行状态。
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
+- [Composio](items/composio.md) - 一个给 AI agents 提供 1000+ toolkits、MCP 和 SaaS 动作能力的开源 SDK 平台，适合做销售、客服、运营自动化编排。
 - [Context7](items/context7.md) - 一个为 AI 编程工具提供最新第三方库文档上下文的服务，帮助代码生成保持资料新鲜。
 - [CopilotKit](items/copilotkit.md) - 一个帮助开发者在应用里快速集成 Copilot 式助手的框架。
 - [Coroot](items/coroot.md) - 一个带 AI 可操作洞察的开源可观测性平台，适合 SRE 和后端团队做 RCA、SLO 和成本追踪。
@@ -113,6 +115,7 @@
 - [MediaCrawler](items/media-crawler.md) - 一个基于 Playwright 登录态的多平台自媒体数据采集工具，支持小红书、抖音、B站、微博、贴吧、知乎等平台。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
+- [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
 - [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
 - [OpenLIT](items/openlit.md) - 开源 AI 工程平台，覆盖 LLM 可观测性、评测、规则引擎、Prompt 管理和 GPU 监控。
