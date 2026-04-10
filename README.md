@@ -81,6 +81,7 @@
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
+- [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
 - [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
 - [AutoCLI](items/autocli.md) - 一个让 AI Agent 通过单条命令读取网站、桌面应用和本地 CLI 的 Rust 工具。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
@@ -95,6 +96,7 @@
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
 - [Context7](items/context7.md) - 一个为 AI 编程工具提供最新第三方库文档上下文的服务，帮助代码生成保持资料新鲜。
 - [CopilotKit](items/copilotkit.md) - 一个帮助开发者在应用里快速集成 Copilot 式助手的框架。
+- [Coroot](items/coroot.md) - 一个带 AI 可操作洞察的开源可观测性平台，适合 SRE 和后端团队做 RCA、SLO 和成本追踪。
 - [dmux](items/dmux.md) - 一个基于 Git worktree 的开发环境复用器，帮助并行 AI 开发时平滑切换隔离环境。
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
@@ -114,6 +116,7 @@
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
 - [OpenLIT](items/openlit.md) - 开源 AI 工程平台，覆盖 LLM 可观测性、评测、规则引擎、Prompt 管理和 GPU 监控。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
+- [Opik](items/opik.md) - 一个开源 AI 可观测性、评测与优化平台，适合追踪、测试并持续优化 RAG、Agent 和代码助手类应用。
 - [r.jina.ai](items/r-jina-ai.md) - 一个通过 URL 前缀把任意网页转成纯 Markdown 的轻量读取入口，适合给 Claude Code、OpenClaw 等 Agent 做网页正文抓取。
 - [Rasa](items/rasa.md) - 一个开源对话式 AI 框架，适合开发意图识别、对话管理和客服机器人。
 - [Semantic Kernel](items/semantic-kernel.md) - 微软的 AI 应用编排 SDK，适合把模型、提示词、插件和企业系统接成工程化工作流。
@@ -137,8 +140,10 @@
 
 ### 测试
 
+- [DeepTeam](items/deepteam.md) - 一个面向 LLM 系统的开源红队框架，可对客服、销售、RAG 和 AI Agent 做越狱、注入和泄露类安全压测。
 - [Evidently](items/evidently.md) - 开源 ML 与 LLM 评测、测试和监控框架，适合把 AI 质量检查接入实验、回归测试和生产监控。
 - [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
+- [Promptfoo](items/promptfoo.md) - 一个面向 LLM 应用的开源评测与红队测试工具，可接入 CI/CD 做质量与安全门禁。
 
 ## 后续补充方向
 
