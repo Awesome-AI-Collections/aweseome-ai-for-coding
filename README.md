@@ -100,6 +100,8 @@
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
+- [K8sGPT](items/k8sgpt.md) - 一个把 Kubernetes 集群问题翻译成自然语言的开源诊断工具，适合 SRE 和平台团队加速排障。
+- [Keep](items/keep.md) - 开源 AIOps 与告警管理平台，适合 SRE 和平台团队做告警聚合、去重、关联、富化与 AI 总结。
 - [LangChain](items/langchain.md) - 最常见的 LLM 应用编排框架之一，适合搭建 Agent、RAG 和工具调用链路。
 - [Langfuse](items/langfuse.md) - 一个开源 LLM 工程平台，提供 tracing、评测、prompt 管理和调试能力，适合 AI 应用团队做生产级观测与迭代。
 - [LangWatch](items/langwatch.md) - 一个面向 LLM 应用评测、仿真测试和生产观测的开源平台，适合 AI 工程团队系统化提升 Agent 可靠性。
@@ -110,6 +112,7 @@
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
+- [OpenLIT](items/openlit.md) - 开源 AI 工程平台，覆盖 LLM 可观测性、评测、规则引擎、Prompt 管理和 GPU 监控。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
 - [r.jina.ai](items/r-jina-ai.md) - 一个通过 URL 前缀把任意网页转成纯 Markdown 的轻量读取入口，适合给 Claude Code、OpenClaw 等 Agent 做网页正文抓取。
 - [Rasa](items/rasa.md) - 一个开源对话式 AI 框架，适合开发意图识别、对话管理和客服机器人。
@@ -134,6 +137,7 @@
 
 ### 测试
 
+- [Evidently](items/evidently.md) - 开源 ML 与 LLM 评测、测试和监控框架，适合把 AI 质量检查接入实验、回归测试和生产监控。
 - [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
 
 ## 后续补充方向
