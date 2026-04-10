@@ -101,12 +101,15 @@
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [LangChain](items/langchain.md) - 最常见的 LLM 应用编排框架之一，适合搭建 Agent、RAG 和工具调用链路。
+- [Langfuse](items/langfuse.md) - 一个开源 LLM 工程平台，提供 tracing、评测、prompt 管理和调试能力，适合 AI 应用团队做生产级观测与迭代。
+- [LangWatch](items/langwatch.md) - 一个面向 LLM 应用评测、仿真测试和生产观测的开源平台，适合 AI 工程团队系统化提升 Agent 可靠性。
 - [LlamaIndex](items/llama-index.md) - 一个面向 RAG 与知识索引的开发框架，适合把文档、数据库和工具接入 LLM 应用。
 - [mcp-use](items/mcp-use.md) - 一个让 MCP 工具链和服务器更易即插即用的套件，用于多智能体系统的标准化工具集成。
 - [MediaCrawler](items/media-crawler.md) - 一个基于 Playwright 登录态的多平台自媒体数据采集工具，支持小红书、抖音、B站、微博、贴吧、知乎等平台。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
+- [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
 - [r.jina.ai](items/r-jina-ai.md) - 一个通过 URL 前缀把任意网页转成纯 Markdown 的轻量读取入口，适合给 Claude Code、OpenClaw 等 Agent 做网页正文抓取。
 - [Rasa](items/rasa.md) - 一个开源对话式 AI 框架，适合开发意图识别、对话管理和客服机器人。
@@ -116,18 +119,6 @@
 - [wechat_articles_spider](items/wechat-articles-spider.md) - 一个面向微信公众号的小规模爬取工具，不依赖抓包，支持近两天更新、历史文章与关键词评分检索。
 - [XCrawl](items/xcrawl.md) - 一个面向网页与站点数据获取的托管 API 服务，可直接配合 OpenClaw 使用，适合不想自己维护浏览器自动化和反爬细节的团队。
 - [小龙 OpenClaw 语音助手](items/xiaolong-openclaw.md) - 一个把 OpenClaw 变成语音交互的离线唤醒助手，支持 ASR + TTS + 工具调用，让你用语音驱动编码类 Agent。
-
-### AI IDEs / Editors
-
-- [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
-
-### Code Review
-
-- [PR-Agent](items/pr-agent.md) - Qodo 社区维护的开源 PR 审查 agent，可在 GitHub、GitLab 等平台自动生成 review、improve 和 ask 反馈。
-
-### Documentation
-
-- [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
 
 ### AI IDEs / Editors
 
