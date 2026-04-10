@@ -199,5 +199,5 @@
 
 ## 收录标准
 
-- 只收录与 `aweseome-ai-for-coding` 对应主题直接相关的公开内容
+- 只收录与 `awesome-ai-for-coding` 对应主题直接相关的公开内容
 - 只保留公开可见的官方链接，不保留内部 intake 来源

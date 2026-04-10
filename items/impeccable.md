@@ -1,7 +1,7 @@
 ---
 title: "Impeccable"
 slug: "impeccable"
-info_type: "aweseome-ai-for-coding"
+info_type: "awesome-ai-for-coding"
 entity_type: "tool"
 category: "Documentation"
 featured: false

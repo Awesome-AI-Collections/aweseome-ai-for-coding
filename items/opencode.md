@@ -1,7 +1,7 @@
 ---
 title: "OpenCode"
 slug: "opencode"
-info_type: "aweseome-ai-for-coding"
+info_type: "awesome-ai-for-coding"
 entity_type: "tool"
 category: "Coding Agents"
 featured: false
