@@ -6,6 +6,7 @@
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [Agent Reach](items/agent-reach.md) - 一个给 AI Agent 补齐跨平台互联网读取能力的开源工具集，统一接入 YouTube、Twitter/X、Reddit、小红书、B站、GitHub 和 RSS 等数据来源。
+- [agent-browser](items/agent-browser.md) - Vercel Labs 开源的浏览器自动化 CLI，专门给 AI agents 提供网页导航、点击、表单填写、截图、网络拦截和批处理能力。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [astron-agent](items/astron-agent.md) - 科大讯飞开源的高性能多 Agent 框架，强调实时协作与复杂工作流自动化。
 - [AutoGen](items/autogen.md) - 微软开源的多智能体开发框架，适合搭建可编排的 Agent 工作流与自动化系统。
@@ -19,7 +20,7 @@
 - [claude-squad](items/claude-squad.md) - 一个用于管理 Claude 小分队的多会话协作工具，适合统一调度多个 Claude 实例。
 - [claude-usage](items/claude-usage.md) - 一个把 Claude Code 本地 JSONL 日志转成可视化仪表盘的工具，可统计 token、模型分布和 API 价格口径下的成本估算。
 - [ClawTeam](items/clawteam.md) - 港大开源的多智能体协同框架，用来让多个 AI 自动分工协作完成复杂任务。
-- [CLI-Anything](items/cli-anything.md) - 一个把任意工具或 API 转成 Claude CLI 可调用接口的框架，方便 Agent 直接操控软件。
+- [CLI-Anything](items/cli-anything.md) - 一个把任意软件快速变成 agent-native CLI 的框架，支持为 Claude Code、Codex、OpenClaw 等代理生成可调用命令层和对应技能定义。
 - [Cloak Browser](items/cloak-browser.md) - 一个面向 AI 自动化的隐私浏览器，主打更强的防封禁与隔离能力。
 - [cmux](items/cmux.md) - 一个面向 macOS 的多智能体终端，可在大屏上同时监控多个 AI 会话的运行状态。
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
@@ -27,26 +28,34 @@
 - [Context7](items/context7.md) - 一个为 AI 编程工具提供最新第三方库文档上下文的服务，帮助代码生成保持资料新鲜。
 - [CopilotKit](items/copilotkit.md) - 一个帮助开发者在应用里快速集成 Copilot 式助手的框架。
 - [crewAI](items/crewai.md) - 一个面向任务分工与角色协作的多智能体框架，适合搭建可复用的 Agent 工作流。
+- [Cursor](items/cursor.md) - 一个 AI 原生代码编辑器与开发工作台，提供智能体、代码审查、Tab 自动补全、云端 Agent 和多模型选择，支持从协作编辑到更自主的端到端开发。
 - [dmux](items/dmux.md) - 一个基于 Git worktree 的开发环境复用器，帮助并行 AI 开发时平滑切换隔离环境。
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
+- [Get Shit Done](items/get-shit-done.md) - 一个面向 Claude Code、Codex、Cursor 等编码助手的 meta-prompting、context engineering 和 spec-driven development 系统，重点解决长上下文里的 context rot 问题。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [LangChain](items/langchain.md) - 最常见的 LLM 应用编排框架之一，适合搭建 Agent、RAG 和工具调用链路。
 - [LlamaIndex](items/llama-index.md) - 一个面向 RAG 与知识索引的开发框架，适合把文档、数据库和工具接入 LLM 应用。
+- [MarkItDown](items/markitdown.md) - 微软开源的文件转 Markdown 工具，可把 PDF、Office 文档、图片、音频、HTML、YouTube 等内容转换成更适合 LLM 和文本分析流水线使用的 Markdown。
 - [mcp-use](items/mcp-use.md) - 一个让 MCP 工具链和服务器更易即插即用的套件，用于多智能体系统的标准化工具集成。
 - [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
+- [MindFS](items/mindfs.md) - 一个把 Claude Code、Codex、Cursor 等本地 Agent CLI 通过浏览器远程接入项目目录和工作站文件的自托管网关，支持多设备访问、实时流式结果和文件联动。
 - [Multica](items/multica.md) - 一个把软件开发任务分配给编程 Agent、跟踪执行过程，并沉淀团队可复用技能的开源平台。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
+- [OpenSpec](items/open-spec.md) - 一个面向 AI 编码助手的 spec-driven development 框架，通过 `openspec` CLI 和 `/opsx:*` 命令把 proposal、spec、design、tasks 和归档流程串起来。
 - [owl](items/owl.md) - camel-ai 开源的多智能体协作框架，可让专业化 Agent 借助浏览器、终端、函数和 MCP 进行团队作战。
 - [r.jina.ai](items/r-jina-ai.md) - 一个通过 URL 前缀把任意网页转成纯 Markdown 的轻量读取入口，适合给 Claude Code、OpenClaw 等 Agent 做网页正文抓取。
 - [Rasa](items/rasa.md) - 一个开源对话式 AI 框架，适合开发意图识别、对话管理和客服机器人。
 - [Semantic Kernel](items/semantic-kernel.md) - 微软的 AI 应用编排 SDK，适合把模型、提示词、插件和企业系统接成工程化工作流。
 - [sim](items/sim.md) - 一个面向多智能体工作流的模拟与构建工作室，用于在真实上线前做编排验证和测试。
+- [Spec Kit](items/spec-kit.md) - GitHub 开源的 spec-driven development 工具包，通过 Specify CLI 和一组 agent 命令把需求、计划、任务拆解和实现执行串成可复用研发流程。
 - [supabase-mcp](items/supabase-mcp.md) - 一个把 Supabase 的数据库、认证与边缘函数能力接给 Claude 的 MCP 服务器。
+- [Superpowers](items/superpowers.md) - 一个面向编码 Agent 的技能框架与软件开发方法论，把需求澄清、规划、TDD、子代理执行和代码评审串成自动触发的研发流程。
+- [Trae](items/trae.md) - 一个 AI 原生 IDE / 编码工作台，提供 IDE 模式与更自主的 SOLO / Builder 模式，支持多 Agent 协作、上下文理解和从需求到交付的开发流程。
 - [XCrawl](items/xcrawl.md) - 一个面向网页与站点数据获取的托管 API 服务，可直接配合 OpenClaw 使用，适合不想自己维护浏览器自动化和反爬细节的团队。
 
 ## 从哪里开始
@@ -78,6 +87,7 @@
 适合想统一管理本地 AI CLI、provider、MCP、代理和工程流程配置的工具。
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
+- [agent-browser](items/agent-browser.md) - Vercel Labs 开源的浏览器自动化 CLI，专门给 AI agents 提供网页导航、点击、表单填写、截图、网络拦截和批处理能力。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
 - [AI Website Cloner Template](items/ai-website-cloner-template.md) - 一个面向 AI coding agents 的网站反向工程模板，能把任意网站重建为干净、可运行的 Next.js + TypeScript 代码库。
@@ -91,7 +101,7 @@
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
 - [claude-squad](items/claude-squad.md) - 一个用于管理 Claude 小分队的多会话协作工具，适合统一调度多个 Claude 实例。
 - [claude-usage](items/claude-usage.md) - 一个把 Claude Code 本地 JSONL 日志转成可视化仪表盘的工具，可统计 token、模型分布和 API 价格口径下的成本估算。
-- [CLI-Anything](items/cli-anything.md) - 一个把任意工具或 API 转成 Claude CLI 可调用接口的框架，方便 Agent 直接操控软件。
+- [CLI-Anything](items/cli-anything.md) - 一个把任意软件快速变成 agent-native CLI 的框架，支持为 Claude Code、Codex、OpenClaw 等代理生成可调用命令层和对应技能定义。
 - [Cloak Browser](items/cloak-browser.md) - 一个面向 AI 自动化的隐私浏览器，主打更强的防封禁与隔离能力。
 - [cmux](items/cmux.md) - 一个面向 macOS 的多智能体终端，可在大屏上同时监控多个 AI 会话的运行状态。
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
@@ -102,6 +112,7 @@
 - [Coroot](items/coroot.md) - 一个带 AI 可操作洞察的开源可观测性平台，适合 SRE 和后端团队做 RCA、SLO 和成本追踪。
 - [dmux](items/dmux.md) - 一个基于 Git worktree 的开发环境复用器，帮助并行 AI 开发时平滑切换隔离环境。
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
+- [Get Shit Done](items/get-shit-done.md) - 一个面向 Claude Code、Codex、Cursor 等编码助手的 meta-prompting、context engineering 和 spec-driven development 系统，重点解决长上下文里的 context rot 问题。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [Helicone](items/helicone.md) - 一个开源 AI Gateway 与 LLM 可观测性平台，适合统一接入多模型、追踪成本延迟并管理 Prompt。
@@ -115,6 +126,7 @@
 - [LlamaIndex](items/llama-index.md) - 一个面向 RAG 与知识索引的开发框架，适合把文档、数据库和工具接入 LLM 应用。
 - [mcp-use](items/mcp-use.md) - 一个让 MCP 工具链和服务器更易即插即用的套件，用于多智能体系统的标准化工具集成。
 - [MediaCrawler](items/media-crawler.md) - 一个基于 Playwright 登录态的多平台自媒体数据采集工具，支持小红书、抖音、B站、微博、贴吧、知乎等平台。
+- [MindFS](items/mindfs.md) - 一个把 Claude Code、Codex、Cursor 等本地 Agent CLI 通过浏览器远程接入项目目录和工作站文件的自托管网关，支持多设备访问、实时流式结果和文件联动。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
@@ -123,19 +135,25 @@
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
 - [OpenLIT](items/openlit.md) - 开源 AI 工程平台，覆盖 LLM 可观测性、评测、规则引擎、Prompt 管理和 GPU 监控。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
+- [OpenSpec](items/open-spec.md) - 一个面向 AI 编码助手的 spec-driven development 框架，通过 `openspec` CLI 和 `/opsx:*` 命令把 proposal、spec、design、tasks 和归档流程串起来。
 - [Opik](items/opik.md) - 一个开源 AI 可观测性、评测与优化平台，适合追踪、测试并持续优化 RAG、Agent 和代码助手类应用。
+- [pua](items/pua.md) - 一个面向 Claude Code、Codex、Cursor 等编码 Agent 的技能插件，用高压话术、调试方法论和主动性约束来减少放弃、甩锅和无效打转。
 - [r.jina.ai](items/r-jina-ai.md) - 一个通过 URL 前缀把任意网页转成纯 Markdown 的轻量读取入口，适合给 Claude Code、OpenClaw 等 Agent 做网页正文抓取。
 - [Rasa](items/rasa.md) - 一个开源对话式 AI 框架，适合开发意图识别、对话管理和客服机器人。
 - [Semantic Kernel](items/semantic-kernel.md) - 微软的 AI 应用编排 SDK，适合把模型、提示词、插件和企业系统接成工程化工作流。
 - [sim](items/sim.md) - 一个面向多智能体工作流的模拟与构建工作室，用于在真实上线前做编排验证和测试。
+- [Spec Kit](items/spec-kit.md) - GitHub 开源的 spec-driven development 工具包，通过 Specify CLI 和一组 agent 命令把需求、计划、任务拆解和实现执行串成可复用研发流程。
 - [supabase-mcp](items/supabase-mcp.md) - 一个把 Supabase 的数据库、认证与边缘函数能力接给 Claude 的 MCP 服务器。
+- [Superpowers](items/superpowers.md) - 一个面向编码 Agent 的技能框架与软件开发方法论，把需求澄清、规划、TDD、子代理执行和代码评审串成自动触发的研发流程。
 - [wechat_articles_spider](items/wechat-articles-spider.md) - 一个面向微信公众号的小规模爬取工具，不依赖抓包，支持近两天更新、历史文章与关键词评分检索。
 - [XCrawl](items/xcrawl.md) - 一个面向网页与站点数据获取的托管 API 服务，可直接配合 OpenClaw 使用，适合不想自己维护浏览器自动化和反爬细节的团队。
 - [小龙 OpenClaw 语音助手](items/xiaolong-openclaw.md) - 一个把 OpenClaw 变成语音交互的离线唤醒助手，支持 ASR + TTS + 工具调用，让你用语音驱动编码类 Agent。
 
 ### AI IDEs / Editors
 
+- [Cursor](items/cursor.md) - 一个 AI 原生代码编辑器与开发工作台，提供智能体、代码审查、Tab 自动补全、云端 Agent 和多模型选择，支持从协作编辑到更自主的端到端开发。
 - [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
+- [Trae](items/trae.md) - 一个 AI 原生 IDE / 编码工作台，提供 IDE 模式与更自主的 SOLO / Builder 模式，支持多 Agent 协作、上下文理解和从需求到交付的开发流程。
 
 ### Code Review
 
@@ -143,6 +161,7 @@
 
 ### Documentation
 
+- [MarkItDown](items/markitdown.md) - 微软开源的文件转 Markdown 工具，可把 PDF、Office 文档、图片、音频、HTML、YouTube 等内容转换成更适合 LLM 和文本分析流水线使用的 Markdown。
 - [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
 
 ### 测试
