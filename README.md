@@ -31,7 +31,6 @@
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
-- [Hermes Agent](items/hermes-agent.md) - NousResearch 开源的强逻辑推理智能体，适合需要深思考和复杂规划的场景。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [LangChain](items/langchain.md) - 最常见的 LLM 应用编排框架之一，适合搭建 Agent、RAG 和工具调用链路。
 - [LlamaIndex](items/llama-index.md) - 一个面向 RAG 与知识索引的开发框架，适合把文档、数据库和工具接入 LLM 应用。
@@ -71,7 +70,6 @@
 - [Collaborator AI](items/collaborator-ai.md) - 一个面向生产环境的多智能体协作平台，强调企业级任务协同与工作流管理。
 - [crewAI](items/crewai.md) - 一个面向任务分工与角色协作的多智能体框架，适合搭建可复用的 Agent 工作流。
 - [HappyClaw](items/happyclaw.md) - 一个基于 Claude Code 运行时构建的自托管多用户 AI Agent 系统，支持 Web 与多种 IM 渠道接入。
-- [Hermes Agent](items/hermes-agent.md) - NousResearch 开源的强逻辑推理智能体，适合需要深思考和复杂规划的场景。
 - [Multica](items/multica.md) - 一个把软件开发任务分配给编程 Agent、跟踪执行过程，并沉淀团队可复用技能的开源平台。
 - [owl](items/owl.md) - camel-ai 开源的多智能体协作框架，可让专业化 Agent 借助浏览器、终端、函数和 MCP 进行团队作战。
 
@@ -96,6 +94,7 @@
 - [Cloak Browser](items/cloak-browser.md) - 一个面向 AI 自动化的隐私浏览器，主打更强的防封禁与隔离能力。
 - [cmux](items/cmux.md) - 一个面向 macOS 的多智能体终端，可在大屏上同时监控多个 AI 会话的运行状态。
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
+- [CodePilot](items/codepilot.md) - 一个多模型 AI Agent 桌面客户端，支持多 provider、MCP、Skills、文件浏览、Git 面板和远程桥接，适合把编码型 Agent 作为日常桌面工作台来用。
 - [Composio](items/composio.md) - 一个给 AI agents 提供 1000+ toolkits、MCP 和 SaaS 动作能力的开源 SDK 平台，适合做销售、客服、运营自动化编排。
 - [Context7](items/context7.md) - 一个为 AI 编程工具提供最新第三方库文档上下文的服务，帮助代码生成保持资料新鲜。
 - [CopilotKit](items/copilotkit.md) - 一个帮助开发者在应用里快速集成 Copilot 式助手的框架。
