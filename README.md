@@ -101,6 +101,7 @@
 - [Dokploy MCP](items/dokploy-mcp.md) - 一个面向 Dokploy 的极简 MCP 部署工具，方便 Claude 直接接管一键部署流程。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
+- [Helicone](items/helicone.md) - 一个开源 AI Gateway 与 LLM 可观测性平台，适合统一接入多模型、追踪成本延迟并管理 Prompt。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [K8sGPT](items/k8sgpt.md) - 一个把 Kubernetes 集群问题翻译成自然语言的开源诊断工具，适合 SRE 和平台团队加速排障。
 - [Keep](items/keep.md) - 开源 AIOps 与告警管理平台，适合 SRE 和平台团队做告警聚合、去重、关联、富化与 AI 总结。
@@ -142,8 +143,10 @@
 
 - [DeepTeam](items/deepteam.md) - 一个面向 LLM 系统的开源红队框架，可对客服、销售、RAG 和 AI Agent 做越狱、注入和泄露类安全压测。
 - [Evidently](items/evidently.md) - 开源 ML 与 LLM 评测、测试和监控框架，适合把 AI 质量检查接入实验、回归测试和生产监控。
+- [Giskard](items/giskard.md) - 一个开源 AI 测试与红队工具库，适合给 Agent、RAG 和 LLM 应用做评测、漏洞扫描和测试集生成。
 - [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
 - [Promptfoo](items/promptfoo.md) - 一个面向 LLM 应用的开源评测与红队测试工具，可接入 CI/CD 做质量与安全门禁。
+- [Ragas](items/ragas.md) - 一个开源 LLM 应用评测工具包，擅长 RAG 测试集生成、客观指标评估和反馈闭环构建。
 
 ## 后续补充方向
 
