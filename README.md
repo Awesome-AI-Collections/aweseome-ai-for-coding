@@ -80,6 +80,7 @@
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
+- [AI Website Cloner Template](items/ai-website-cloner-template.md) - 一个面向 AI coding agents 的网站反向工程模板，能把任意网站重建为干净、可运行的 Next.js + TypeScript 代码库。
 - [Apify MCP Server](items/apify-mcp-server.md) - 一个把 Apify Store 里的抓取器、爬虫和自动化工具开放给 AI agents 调用的 MCP server，适合在平台没开放 API 时补上网页级数据连接能力。
 - [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
 - [AutoCLI](items/autocli.md) - 一个让 AI Agent 通过单条命令读取网站、桌面应用和本地 CLI 的 Rust 工具。
