@@ -95,6 +95,8 @@
 - [agent-browser](items/agent-browser.md) - Vercel Labs 开源的浏览器自动化 CLI，专门给 AI agents 提供网页导航、点击、表单填写、截图、网络拦截和批处理能力。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
+- [AgentHandover](items/agenthandover.md) - 一个在 macOS 上录制真实工作流程、自动生成可自我改进 skills，并交给 Claude Code、Codex、OpenClaw、Hermes 等 agent 执行的工作交接工具。
+- [AI Website Cloner Template](items/ai-website-cloner-template.md) - 一个面向 AI coding agents 的网站反向工程模板，能把任意网站重建为干净、可运行的 Next.js + TypeScript 代码库。
 - [Apify MCP Server](items/apify-mcp-server.md) - 一个把 Apify Store 里的抓取器、爬虫和自动化工具开放给 AI agents 调用的 MCP server，适合在平台没开放 API 时补上网页级数据连接能力。
 - [Apollo.io MCP Server](items/apollo-io-mcp-server.md) - 把 Apollo.io 销售情报能力封装成 MCP server，方便 agent 工作流调用。
 - [AutoCLI](items/autocli.md) - 一个让 AI Agent 通过单条命令读取网站、桌面应用和本地 CLI 的 Rust 工具。
@@ -125,6 +127,7 @@
 - [gstack](items/gstack.md) - 一个把 Claude Code 组织成虚拟工程团队的 agentic skills 与软件工厂框架，用一组 slash commands 把产品思考、规划、评审、QA、安全审计和发布串成端到端研发流程。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [Helicone](items/helicone.md) - 一个开源 AI Gateway 与 LLM 可观测性平台，适合统一接入多模型、追踪成本延迟并管理 Prompt。
+- [Hermes HUD](items/hermes-hud.md) - 一个面向 Hermes agent 的终端监控面板，从 Hermes 本地数据目录实时读取记忆、项目、工具链、cron、会话和自我修正数据，帮助开发者观察 agent 的运行与成长。
 - [Higress](items/higress.md) - 一个来自阿里体系的 AI Gateway，可统一管理 LLM API 与 MCP API，并把 OpenAPI 服务快速托管成可供 AI 调用的远程工具层。
 - [jina-cli](items/jina-cli.md) - 一个把任意网页转换成 LLM 友好输入的 CLI，支持 read 与 search，并可直接接入 Claude Code 或 OpenClaw。
 - [K8sGPT](items/k8sgpt.md) - 一个把 Kubernetes 集群问题翻译成自然语言的开源诊断工具，适合 SRE 和平台团队加速排障。
