@@ -153,10 +153,12 @@
 - [Semantic Kernel](items/semantic-kernel.md) - 微软的 AI 应用编排 SDK，适合把模型、提示词、插件和企业系统接成工程化工作流。
 - [sim](items/sim.md) - 一个面向多智能体工作流的模拟与构建工作室，用于在真实上线前做编排验证和测试。
 - [Spec Kit](items/spec-kit.md) - GitHub 开源的 spec-driven development 工具包，通过 Specify CLI 和一组 agent 命令把需求、计划、任务拆解和实现执行串成可复用研发流程。
+- [Supabase](items/supabase.md) - 一个围绕 Postgres 构建的开发平台，集成数据库、认证、API、实时订阅、函数、存储和 AI 向量能力，适合 AI 产品与全栈应用开发。
 - [supabase-mcp](items/supabase-mcp.md) - 一个把 Supabase 的数据库、认证与边缘函数能力接给 Claude 的 MCP 服务器。
 - [Superconductor](items/superconductor.md) - 一个原生 macOS 多 Agent 编排工作台，可在隔离 git worktree 中并行运行 Claude Code、Codex、Gemini CLI 等编码代理，并集中做 diff 审查、分支管理和交付。
 - [Superpowers](items/superpowers.md) - 一个面向编码 Agent 的技能框架与软件开发方法论，把需求澄清、规划、TDD、子代理执行和代码评审串成自动触发的研发流程。
 - [Vibecanvas](items/vibecanvas.md) - 一个本地优先的无限画布式 Agent 工作台，允许用户和 AI 通过同一套 CLI 命令共同编辑画布，并用 CRDT 做实时协作同步。
+- [Waza](items/waza.md) - 一个把需求思考、设计、检查、调试、研究和写作等工程习惯打包成 Claude Code skills 的技能集合，帮助开发者把方法论直接嵌进日常工作流。
 - [wechat_articles_spider](items/wechat-articles-spider.md) - 一个面向微信公众号的小规模爬取工具，不依赖抓包，支持近两天更新、历史文章与关键词评分检索。
 - [XCrawl](items/xcrawl.md) - 一个面向网页与站点数据获取的托管 API 服务，可直接配合 OpenClaw 使用，适合不想自己维护浏览器自动化和反爬细节的团队。
 - [小龙 OpenClaw 语音助手](items/xiaolong-openclaw.md) - 一个把 OpenClaw 变成语音交互的离线唤醒助手，支持 ASR + TTS + 工具调用，让你用语音驱动编码类 Agent。
@@ -176,11 +178,19 @@
 
 - [PR-Agent](items/pr-agent.md) - Qodo 社区维护的开源 PR 审查 agent，可在 GitHub、GitLab 等平台自动生成 review、improve 和 ask 反馈。
 
+### Testing
+
+- [Playwright](items/playwright.md) - 一个覆盖 Chromium、Firefox 和 WebKit 的网页自动化与测试框架，现已同时提供测试框架、coding-agent CLI 和 MCP server。
+
 ### Documentation
 
 - [Impeccable](items/impeccable.md) - 一个面向 AI harness 的设计技能体系，用一组命令把设计上下文、评审、排版、配色、布局、动效和硬化检查编码成可复用的前端设计工作流。
 - [MarkItDown](items/markitdown.md) - 微软开源的文件转 Markdown 工具，可把 PDF、Office 文档、图片、音频、HTML、YouTube 等内容转换成更适合 LLM 和文本分析流水线使用的 Markdown。
 - [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
+
+### Code Search / Refactoring
+
+- [graphify](items/graphify.md) - 一个面向 Claude Code 等编码助手的知识图谱技能，可把代码、文档、论文和图片转成可查询的图谱与 wiki，帮助代码库理解和长期导航。
 
 ### Coding Agents
 
@@ -198,8 +208,6 @@
 ## 后续补充方向
 
 - `Debugging`: 待补充分类说明。
-- `Testing`: 待补充分类说明。
-- `Code Search / Refactoring`: 待补充分类说明。
 - `DevOps / CI / Release`: 待补充分类说明。
 - `Prompt Patterns for Coding`: 待补充分类说明。
 
