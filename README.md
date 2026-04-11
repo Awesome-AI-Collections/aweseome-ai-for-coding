@@ -133,10 +133,12 @@
 - [LlamaIndex](items/llama-index.md) - 一个面向 RAG 与知识索引的开发框架，适合把文档、数据库和工具接入 LLM 应用。
 - [mcp-use](items/mcp-use.md) - 一个让 MCP 工具链和服务器更易即插即用的套件，用于多智能体系统的标准化工具集成。
 - [MediaCrawler](items/media-crawler.md) - 一个基于 Playwright 登录态的多平台自媒体数据采集工具，支持小红书、抖音、B站、微博、贴吧、知乎等平台。
+- [MemPalace](items/mempalace.md) - 一个面向 Claude Code、Cursor 等 AI 助手的本地记忆系统，用原始对话、项目资料和 MCP 工具把长期上下文接回开发工作流。
 - [MindFS](items/mindfs.md) - 一个把 Claude Code、Codex、Cursor 等本地 Agent CLI 通过浏览器远程接入项目目录和工作站文件的自托管网关，支持多设备访问、实时流式结果和文件联动。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
+- [NetEase Skills](items/netease-skills.md) - 网易云音乐团队维护的 agent skills 仓库，提供可供 Claude Code 等工具安装的技能包，包括 ncm-cli 等音乐相关能力。
 - [Nezha](items/nezha.md) - 一个 Agent-First 的轻量桌面应用，用来在多个项目间并行运行 Claude Code 和 Codex，并把任务跟踪、终端、会话回放、代码浏览和 Git 工作流整合到同一个界面里。
 - [oh-my-claudecode](items/oh-my-claudecode.md) - 一个面向 Claude Code 的零学习曲线多 Agent 编排插件，提供 `/team`、`/autopilot`、`/deep-interview` 等技能和 CLI worker 流程，把规划、执行、验证和多模型协作收进统一工作流。
 - [openapi-to-mcpserver](items/openapi-to-mcpserver.md) - 一个把 OpenAPI 文档自动转换成 Higress 远程 MCP server 配置的工具，适合把 Amazon、Alibaba、Shopify 等平台 API 快速变成 AI 可调用能力。
