@@ -103,6 +103,7 @@
 - [claude-squad](items/claude-squad.md) - 一个用于管理 Claude 小分队的多会话协作工具，适合统一调度多个 Claude 实例。
 - [claude-usage](items/claude-usage.md) - 一个把 Claude Code 本地 JSONL 日志转成可视化仪表盘的工具，可统计 token、模型分布和 API 价格口径下的成本估算。
 - [CLI-Anything](items/cli-anything.md) - 一个把任意软件快速变成 agent-native CLI 的框架，支持为 Claude Code、Codex、OpenClaw 等代理生成可调用命令层和对应技能定义。
+- [cli-creator](items/cli-creator.md) - OpenAI 提供的 Codex 技能，用来从 API 文档、OpenAPI、SDK、curl 样例或现有脚本快速设计并构建可长期复用的 CLI。
 - [Cloak Browser](items/cloak-browser.md) - 一个面向 AI 自动化的隐私浏览器，主打更强的防封禁与隔离能力。
 - [cmux](items/cmux.md) - 一个面向 macOS 的多智能体终端，可在大屏上同时监控多个 AI 会话的运行状态。
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
