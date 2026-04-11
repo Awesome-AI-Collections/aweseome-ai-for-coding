@@ -3,7 +3,7 @@ title: "Multica"
 slug: "multica"
 info_type: "awesome-ai-for-coding"
 entity_type: "tool"
-category: "编程 Agent"
+category: "Coding Agents"
 featured: true
 last_reviewed_at: "2026-04-08T00:00:00+00:00"
 ---

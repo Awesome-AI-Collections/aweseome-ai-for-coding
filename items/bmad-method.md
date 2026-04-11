@@ -3,7 +3,7 @@ title: "BMad Method"
 slug: "bmad-method"
 info_type: "awesome-ai-for-coding"
 entity_type: "tool"
-category: "工程工作流"
+category: "Engineering Workflows"
 featured: false
 last_reviewed_at: "2026-04-11T06:20:00+00:00"
 ---

@@ -3,7 +3,7 @@ title: "Botpress"
 slug: "botpress"
 info_type: "awesome-ai-for-coding"
 entity_type: "tool"
-category: "工程工作流"
+category: "Engineering Workflows"
 featured: true
 last_reviewed_at: "2026-04-09T00:00:00+00:00"
 ---

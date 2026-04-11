@@ -3,7 +3,7 @@ title: "Ragas"
 slug: "ragas"
 info_type: "awesome-ai-for-coding"
 entity_type: "tool"
-category: "测试"
+category: "Testing"
 featured: false
 last_reviewed_at: "2026-04-10T00:00:00+00:00"
 ---
