@@ -5,7 +5,6 @@
 ## 推荐
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
-- [Agent Reach](items/agent-reach.md) - 一个给 AI Agent 补齐跨平台互联网读取能力的开源工具集，统一接入 YouTube、Twitter/X、Reddit、小红书、B站、GitHub 和 RSS 等数据来源。
 - [agent-browser](items/agent-browser.md) - Vercel Labs 开源的浏览器自动化 CLI，专门给 AI agents 提供网页导航、点击、表单填写、截图、网络拦截和批处理能力。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [astron-agent](items/astron-agent.md) - 科大讯飞开源的高性能多 Agent 框架，强调实时协作与复杂工作流自动化。
@@ -13,7 +12,6 @@
 - [Autoresearch](items/autoresearch.md) - 一个自动研究循环工具，可让 AI 连续查资料、做实验并生成报告。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
 - [awesome-connected-cli](items/awesome-connected-cli.md) - 一个把抓取、AI 处理和多平台输出串成一条龙自动化的 CLI 工具箱。
-- [bb-browser](items/bb-browser.md) - 一个把真实已登录浏览器直接变成 API / CLI / MCP 接口的工具，让 AI Agent 低成本访问多平台内容与交互能力。
 - [Botpress](items/botpress.md) - 一个用于搭建 AI 聊天机器人和对话工作流的平台，适合开发客服与助手类应用。
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
 - [Claude Managed Agents](items/claude-managed-agents.md) - Anthropic 提供的云端托管 Agent 基础设施，帮助团队更快把自动修 bug、专项开发和长时任务 Agent 部署到生产环境。
@@ -45,7 +43,6 @@
 - [Multica](items/multica.md) - 一个把软件开发任务分配给编程 Agent、跟踪执行过程，并沉淀团队可复用技能的开源平台。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
-- [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
 - [OpenSpec](items/open-spec.md) - 一个面向 AI 编码助手的 spec-driven development 框架，通过 `openspec` CLI 和 `/opsx:*` 命令把 proposal、spec、design、tasks 和归档流程串起来。
 - [owl](items/owl.md) - camel-ai 开源的多智能体协作框架，可让专业化 Agent 借助浏览器、终端、函数和 MCP 进行团队作战。
@@ -73,11 +70,9 @@
 
 适合想找能直接参与写代码、改代码、跟任务流结合的 AI agent。
 
-- [Agent Reach](items/agent-reach.md) - 一个给 AI Agent 补齐跨平台互联网读取能力的开源工具集，统一接入 YouTube、Twitter/X、Reddit、小红书、B站、GitHub 和 RSS 等数据来源。
 - [astron-agent](items/astron-agent.md) - 科大讯飞开源的高性能多 Agent 框架，强调实时协作与复杂工作流自动化。
 - [AutoGen](items/autogen.md) - 微软开源的多智能体开发框架，适合搭建可编排的 Agent 工作流与自动化系统。
 - [Autoresearch](items/autoresearch.md) - 一个自动研究循环工具，可让 AI 连续查资料、做实验并生成报告。
-- [bb-browser](items/bb-browser.md) - 一个把真实已登录浏览器直接变成 API / CLI / MCP 接口的工具，让 AI Agent 低成本访问多平台内容与交互能力。
 - [Claude Managed Agents](items/claude-managed-agents.md) - Anthropic 提供的云端托管 Agent 基础设施，帮助团队更快把自动修 bug、专项开发和长时任务 Agent 部署到生产环境。
 - [ClawTeam](items/clawteam.md) - 港大开源的多智能体协同框架，用来让多个 AI 自动分工协作完成复杂任务。
 - [Collaborator AI](items/collaborator-ai.md) - 一个面向生产环境的多智能体协作平台，强调企业级任务协同与工作流管理。
@@ -145,7 +140,6 @@
 - [Nezha](items/nezha.md) - 一个 Agent-First 的轻量桌面应用，用来在多个项目间并行运行 Claude Code 和 Codex，并把任务跟踪、终端、会话回放、代码浏览和 Git 工作流整合到同一个界面里。
 - [oh-my-claudecode](items/oh-my-claudecode.md) - 一个面向 Claude Code 的零学习曲线多 Agent 编排插件，提供 `/team`、`/autopilot`、`/deep-interview` 等技能和 CLI worker 流程，把规划、执行、验证和多模型协作收进统一工作流。
 - [openapi-to-mcpserver](items/openapi-to-mcpserver.md) - 一个把 OpenAPI 文档自动转换成 Higress 远程 MCP server 配置的工具，适合把 Amazon、Alibaba、Shopify 等平台 API 快速变成 AI 可调用能力。
-- [OpenCLI](items/opencli.md) - 一个把网站、浏览器会话、Electron 应用和本地命令行统一暴露给人类与 AI Agent 的自动化 CLI 中枢。
 - [OpenDeRisk](items/openderisk.md) - 一个面向 AI 原生 SRE 和故障根因分析的开源系统，可结合日志、链路和代码做多智能体诊断。
 - [OpenLIT](items/openlit.md) - 开源 AI 工程平台，覆盖 LLM 可观测性、评测、规则引擎、Prompt 管理和 GPU 监控。
 - [OpenLogs](items/openlogs.md) - 一个面向 AI 智能体的可观测性平台，用于实时监控行为日志和运行轨迹。
