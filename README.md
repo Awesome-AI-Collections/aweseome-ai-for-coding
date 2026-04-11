@@ -98,6 +98,7 @@
 - [awesome-connected-cli](items/awesome-connected-cli.md) - 一个把抓取、AI 处理和多平台输出串成一条龙自动化的 CLI 工具箱。
 - [BMad Method](items/bmad-method.md) - 一个 AI-driven agile development 框架与模块生态，通过专家代理、结构化工作流和 scale-adaptive 规划，把分析、架构、开发、测试和部署串成可扩展的软件工程流程。
 - [Botpress](items/botpress.md) - 一个用于搭建 AI 聊天机器人和对话工作流的平台，适合开发客服与助手类应用。
+- [ByteRover CLI](items/byterover-cli.md) - 一个面向自主编码 agents 的可移植记忆层 CLI，可在编码流程里沉淀、检索和复用长期上下文。
 - [CC-Switch CLI](items/cc-switch-cli.md) - 一个统一管理 Claude Code、Codex、Gemini、OpenCode 与 OpenClaw 配置、MCP、提示词和环境检查的跨平台 CLI 工具。
 - [claude-squad](items/claude-squad.md) - 一个用于管理 Claude 小分队的多会话协作工具，适合统一调度多个 Claude 实例。
 - [claude-usage](items/claude-usage.md) - 一个把 Claude Code 本地 JSONL 日志转成可视化仪表盘的工具，可统计 token、模型分布和 API 价格口径下的成本估算。
