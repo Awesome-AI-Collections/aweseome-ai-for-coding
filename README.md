@@ -5,7 +5,6 @@
 ## 推荐
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
-- [agent-browser](items/agent-browser.md) - Vercel Labs 开源的浏览器自动化 CLI，专门给 AI agents 提供网页导航、点击、表单填写、截图、网络拦截和批处理能力。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [astron-agent](items/astron-agent.md) - 科大讯飞开源的高性能多 Agent 框架，强调实时协作与复杂工作流自动化。
 - [AutoGen](items/autogen.md) - 微软开源的多智能体开发框架，适合搭建可编排的 Agent 工作流与自动化系统。
@@ -87,7 +86,6 @@
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [Acepe](items/acepe.md) - 一个原生桌面 Agentic Developer Environment，用来并行运行、协调和监督多个编码 Agent，覆盖会话编排、权限队列、diff 审查、checkpoint、git 流程和 PR 交付。
-- [agent-browser](items/agent-browser.md) - Vercel Labs 开源的浏览器自动化 CLI，专门给 AI agents 提供网页导航、点击、表单填写、截图、网络拦截和批处理能力。
 - [agent-file](items/agent-file.md) - 一个开源 Agent 文件格式，用于把记忆、行为和状态打包成可移植容器。
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
 - [AgentHandover](items/agenthandover.md) - 一个在 macOS 上录制真实工作流程、自动生成可自我改进 skills，并交给 Claude Code、Codex、OpenClaw、Hermes 等 agent 执行的工作交接工具。
