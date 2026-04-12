@@ -77,47 +77,14 @@
 
 ## 从哪里开始
 
-- 如果你想找能直接接手研发任务的 agent，先看 `编程 Agent`。
-- 如果你想先把本地 AI CLI 工具链管顺，先看 `工程工作流`。
+- 如果你想找能直接接手研发任务的 agent，先看 `Coding Agents`。
+- 如果你想先把本地 AI CLI 工具链管顺，先看 `Engineering Workflows`。
 
 ## 分类浏览
 
-### AI IDEs / Editors
-
-- [Cursor](items/cursor.md) - 一个 AI 原生代码编辑器与开发工作台，提供智能体、代码审查、Tab 自动补全、云端 Agent 和多模型选择，支持从协作编辑到更自主的端到端开发。
-- [Google Antigravity](items/google-antigravity.md) - 一个面向 agent-first 时代的 AI IDE 与开发平台，强调跨编辑器、终端、浏览器的多 Agent 协作与任务编排，提供上下文感知的智能编辑体验。
-- [HumanLayer / CodeLayer](items/humanlayer.md) - HumanLayer 团队推出的 CodeLayer 开源 AI IDE，围绕 Claude Code 提供键盘优先、多会话并行、worktree 与云 worker 编排，以及 advanced context engineering 工作流。
-- [Kiro](items/kiro.md) - 一个强调 spec-driven 开发的 agentic AI 开发环境，主打把需求与规格转化为可执行的工程流程，并在 IDE 内完成从原型到生产的闭环。
-- [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
-- [Trae](items/trae.md) - 一个 AI 原生 IDE / 编码工作台，提供 IDE 模式与更自主的 SOLO / Builder 模式，支持多 Agent 协作、上下文理解和从需求到交付的开发流程。
-- [Visual Studio Code](items/visual-studio-code.md) - 一个开放生态的 AI 代码编辑器与开发平台，在经典 VS Code 编辑体验之上，把 Copilot 本地 Agent、云端 Agent、CLI Agent、扩展和 MCP 能力整合进多 Agent 开发工作流。
-- [Zed](items/zed.md) - 一个用 Rust 打造的高性能协作型代码编辑器，强调低延迟、本地 GPU 加速、多人协作和 LLM 集成，面向人类与 AI 并行工作的下一代编辑器体验。
-
-### Code Review
-
-- [PR-Agent](items/pr-agent.md) - Qodo 社区维护的开源 PR 审查 agent，可在 GitHub、GitLab 等平台自动生成 review、improve 和 ask 反馈。
-
-### Testing
-
-- [DeepTeam](items/deepteam.md) - 一个面向 LLM 系统的开源红队框架，可对客服、销售、RAG 和 AI Agent 做越狱、注入和泄露类安全压测。
-- [Evidently](items/evidently.md) - 开源 ML 与 LLM 评测、测试和监控框架，适合把 AI 质量检查接入实验、回归测试和生产监控。
-- [Giskard](items/giskard.md) - 一个开源 AI 测试与红队工具库，适合给 Agent、RAG 和 LLM 应用做评测、漏洞扫描和测试集生成。
-- [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
-- [Playwright](items/playwright.md) - 一个覆盖 Chromium、Firefox 和 WebKit 的网页自动化与测试框架，现已同时提供测试框架、coding-agent CLI 和 MCP server。
-- [Promptfoo](items/promptfoo.md) - 一个面向 LLM 应用的开源评测与红队测试工具，可接入 CI/CD 做质量与安全门禁。
-- [Ragas](items/ragas.md) - 一个开源 LLM 应用评测工具包，擅长 RAG 测试集生成、客观指标评估和反馈闭环构建。
-
-### Documentation
-
-- [Impeccable](items/impeccable.md) - 一个面向 AI harness 的设计技能体系，用一组命令把设计上下文、评审、排版、配色、布局、动效和硬化检查编码成可复用的前端设计工作流。
-- [MarkItDown](items/markitdown.md) - 微软开源的文件转 Markdown 工具，可把 PDF、Office 文档、图片、音频、HTML、YouTube 等内容转换成更适合 LLM 和文本分析流水线使用的 Markdown。
-- [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
-
-### Code Search / Refactoring
-
-- [graphify](items/graphify.md) - 一个面向 Claude Code 等编码助手的知识图谱技能，可把代码、文档、论文和图片转成可查询的图谱与 wiki，帮助代码库理解和长期导航。
-
 ### Coding Agents
+
+适合想找能直接参与写代码、改代码、跟任务流结合的 AI agent。
 
 - [astron-agent](items/astron-agent.md) - 科大讯飞开源的高性能多 Agent 框架，强调实时协作与复杂工作流自动化。
 - [AutoGen](items/autogen.md) - 微软开源的多智能体开发框架，适合搭建可编排的 Agent 工作流与自动化系统。
@@ -132,6 +99,8 @@
 - [owl](items/owl.md) - camel-ai 开源的多智能体协作框架，可让专业化 Agent 借助浏览器、终端、函数和 MCP 进行团队作战。
 
 ### Engineering Workflows
+
+适合想统一管理本地 AI CLI、provider、MCP、代理和工程流程配置的工具。
 
 - [ACE Platform](items/ace-platform.md) - 一个智能体控制环境平台，强调更强的安全监控与受控执行。
 - [Acepe](items/acepe.md) - 一个原生桌面 Agentic Developer Environment，用来并行运行、协调和监督多个编码 Agent，覆盖会话编排、权限队列、diff 审查、checkpoint、git 流程和 PR 交付。
@@ -156,6 +125,7 @@
 - [Composio](items/composio.md) - 一个给 AI agents 提供 1000+ toolkits、MCP 和 SaaS 动作能力的开源 SDK 平台，适合做销售、客服、运营自动化编排。
 - [Compound Engineering Plugin](items/compound-engineering-plugin.md) - 一个把 compound engineering 方法落成插件和跨平台安装工具的技能市场，通过 brainstorm、plan、work、review、compound 五段式循环，把每次工程工作沉淀成未来可复用的能力。
 - [Conductor](items/conductor.md) - 一个原生 macOS 编码 Agent 编排工作台，帮助开发者在本机为 Claude Code 和 Codex 创建隔离 worktree，会话可并行运行，并在同一界面里集中查看进度、审查改动与合并结果。
+- [Context Infrastructure](items/context-infrastructure.md) - 一个面向 AI coding agents 的 context 与 memory 参考实现，提供个人规则、技能、分层记忆和定时观察机制。
 - [Context7](items/context7.md) - 一个为 AI 编程工具提供最新第三方库文档上下文的服务，帮助代码生成保持资料新鲜。
 - [CopilotKit](items/copilotkit.md) - 一个帮助开发者在应用里快速集成 Copilot 式助手的框架。
 - [Coroot](items/coroot.md) - 一个带 AI 可操作洞察的开源可观测性平台，适合 SRE 和后端团队做 RCA、SLO 和成本追踪。
@@ -227,13 +197,56 @@
 - [XCrawl](items/xcrawl.md) - 一个面向网页与站点数据获取的托管 API 服务，可直接配合 OpenClaw 使用，适合不想自己维护浏览器自动化和反爬细节的团队。
 - [小龙 OpenClaw 语音助手](items/xiaolong-openclaw.md) - 一个把 OpenClaw 变成语音交互的离线唤醒助手，支持 ASR + TTS + 工具调用，让你用语音驱动编码类 Agent。
 
+### AI IDEs / Editors
+
+适合把 AI 深度嵌进编辑、导航、补全和多会话开发环境的工具。
+
+- [Cursor](items/cursor.md) - 一个 AI 原生代码编辑器与开发工作台，提供智能体、代码审查、Tab 自动补全、云端 Agent 和多模型选择，支持从协作编辑到更自主的端到端开发。
+- [Google Antigravity](items/google-antigravity.md) - 一个面向 agent-first 时代的 AI IDE 与开发平台，强调跨编辑器、终端、浏览器的多 Agent 协作与任务编排，提供上下文感知的智能编辑体验。
+- [HumanLayer / CodeLayer](items/humanlayer.md) - HumanLayer 团队推出的 CodeLayer 开源 AI IDE，围绕 Claude Code 提供键盘优先、多会话并行、worktree 与云 worker 编排，以及 advanced context engineering 工作流。
+- [Kiro](items/kiro.md) - 一个强调 spec-driven 开发的 agentic AI 开发环境，主打把需求与规格转化为可执行的工程流程，并在 IDE 内完成从原型到生产的闭环。
+- [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
+- [Trae](items/trae.md) - 一个 AI 原生 IDE / 编码工作台，提供 IDE 模式与更自主的 SOLO / Builder 模式，支持多 Agent 协作、上下文理解和从需求到交付的开发流程。
+- [Visual Studio Code](items/visual-studio-code.md) - 一个开放生态的 AI 代码编辑器与开发平台，在经典 VS Code 编辑体验之上，把 Copilot 本地 Agent、云端 Agent、CLI Agent、扩展和 MCP 能力整合进多 Agent 开发工作流。
+- [Zed](items/zed.md) - 一个用 Rust 打造的高性能协作型代码编辑器，强调低延迟、本地 GPU 加速、多人协作和 LLM 集成，面向人类与 AI 并行工作的下一代编辑器体验。
+
+### Code Review
+
+适合做 PR 审查、diff 分析、风险提醒和 review 自动化的工具。
+
+- [PR-Agent](items/pr-agent.md) - Qodo 社区维护的开源 PR 审查 agent，可在 GitHub、GitLab 等平台自动生成 review、improve 和 ask 反馈。
+
+### Testing
+
+适合测试生成、端到端验证、回归检查和质量门禁的工具。
+
+- [DeepTeam](items/deepteam.md) - 一个面向 LLM 系统的开源红队框架，可对客服、销售、RAG 和 AI Agent 做越狱、注入和泄露类安全压测。
+- [Evidently](items/evidently.md) - 开源 ML 与 LLM 评测、测试和监控框架，适合把 AI 质量检查接入实验、回归测试和生产监控。
+- [Giskard](items/giskard.md) - 一个开源 AI 测试与红队工具库，适合给 Agent、RAG 和 LLM 应用做评测、漏洞扫描和测试集生成。
+- [METATRON](items/metatron.md) - 一个本地运行的 AI 渗透测试助手，可自动串联侦察工具、调用本地模型分析漏洞并导出报告。
+- [Playwright](items/playwright.md) - 一个覆盖 Chromium、Firefox 和 WebKit 的网页自动化与测试框架，现已同时提供测试框架、coding-agent CLI 和 MCP server。
+- [Promptfoo](items/promptfoo.md) - 一个面向 LLM 应用的开源评测与红队测试工具，可接入 CI/CD 做质量与安全门禁。
+- [Ragas](items/ragas.md) - 一个开源 LLM 应用评测工具包，擅长 RAG 测试集生成、客观指标评估和反馈闭环构建。
+
+### Documentation
+
+适合生成、整理、转换和维护研发文档与上下文资料的工具。
+
+- [Impeccable](items/impeccable.md) - 一个面向 AI harness 的设计技能体系，用一组命令把设计上下文、评审、排版、配色、布局、动效和硬化检查编码成可复用的前端设计工作流。
+- [MarkItDown](items/markitdown.md) - 微软开源的文件转 Markdown 工具，可把 PDF、Office 文档、图片、音频、HTML、YouTube 等内容转换成更适合 LLM 和文本分析流水线使用的 Markdown。
+- [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
+
+### Code Search / Refactoring
+
+适合代码搜索、结构理解、重构辅助和大仓导航的工具。
+
+- [graphify](items/graphify.md) - 一个面向 Claude Code 等编码助手的知识图谱技能，可把代码、文档、论文和图片转成可查询的图谱与 wiki，帮助代码库理解和长期导航。
+
 ## 后续补充方向
 
-- `编程 Agent`: 适合想找能直接参与写代码、改代码、跟任务流结合的 AI agent。
-- `工程工作流`: 适合想统一管理本地 AI CLI、provider、MCP、代理和工程流程配置的工具。
-- `Debugging`: 待补充分类说明。
-- `DevOps / CI / Release`: 待补充分类说明。
-- `Prompt Patterns for Coding`: 待补充分类说明。
+- `Debugging`: 适合辅助排障、日志分析、根因定位和故障修复的工具。
+- `DevOps / CI / Release`: 适合部署、CI、发布、运维与环境交付相关的工具。
+- `Prompt Patterns for Coding`: 适合沉淀编码提示词、spec-driven 流程和上下文模式的工具。
 
 ## 收录标准
 
