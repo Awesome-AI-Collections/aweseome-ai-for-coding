@@ -117,6 +117,7 @@
 - [ByteRover CLI](items/byterover-cli.md) - 一个面向自主编码 agents 的可移植记忆层 CLI，可在编码流程里沉淀、检索和复用长期上下文。
 - [cc-connect](items/cc-connect.md) - 一个把本地 Claude Code、Codex、Gemini CLI 等 coding agents 桥接到飞书、钉钉、Slack、Telegram 等聊天平台的远程协作工具。
 - [Chroma](items/chroma.md) - 向量数据库，用于产品和客户语义检索。
+- [Claude Code Routines](items/claude-code-routines.md) - Claude Code 的云端自动化能力，可把提示、仓库、连接器和触发器封装成可重复运行的 routine，在 Anthropic 托管基础设施上按计划、API 或 GitHub 事件自动执行。
 - [claude-squad](items/claude-squad.md) - 一个用于管理 Claude 小分队的多会话协作工具，适合统一调度多个 Claude 实例。
 - [claude-usage](items/claude-usage.md) - 一个把 Claude Code 本地 JSONL 日志转成可视化仪表盘的工具，可统计 token、模型分布和 API 价格口径下的成本估算。
 - [cli-creator](items/cli-creator.md) - OpenAI 提供的 Codex 技能，用来从 API 文档、OpenAPI、SDK、curl 样例或现有脚本快速设计并构建可长期复用的 CLI。
@@ -223,6 +224,7 @@
 - [Tabnine](items/tabnine.md) - 一个强调隐私、合规和团队可控性的 AI 编码助手，覆盖补全、聊天、测试、修复和文档生成。
 - [Trae](items/trae.md) - 一个 AI 原生 IDE / 编码工作台，提供 IDE 模式与更自主的 SOLO / Builder 模式，支持多 Agent 协作、上下文理解和从需求到交付的开发流程。
 - [Visual Studio Code](items/visual-studio-code.md) - 一个开放生态的 AI 代码编辑器与开发平台，在经典 VS Code 编辑体验之上，把 Copilot 本地 Agent、云端 Agent、CLI Agent、扩展和 MCP 能力整合进多 Agent 开发工作流。
+- [Warp](items/warp.md) - 一个把终端、AI agent、代码审查和远程协作收进同一工作台的开发者终端应用，现已对 Claude Code、Codex、OpenCode 和 Gemini CLI 提供一等支持。
 - [Zed](items/zed.md) - 一个用 Rust 打造的高性能协作型代码编辑器，强调低延迟、本地 GPU 加速、多人协作和 LLM 集成，面向人类与 AI 并行工作的下一代编辑器体验。
 
 ### Code Review
