@@ -138,6 +138,7 @@
 - [Everything Claude Code](items/everything-claude-code.md) - 一个面向 Claude Code、Codex、OpenCode 等 agent harness 的高性能工程化系统，整合 skills、hooks、memory、持续学习、安全扫描和 token optimization，帮助团队长期稳定地用 AI 写软件。
 - [Get Shit Done](items/get-shit-done.md) - 一个面向 Claude Code、Codex、Cursor 等编码助手的 meta-prompting、context engineering 和 spec-driven development 系统，重点解决长上下文里的 context rot 问题。
 - [gmux](items/gmux.md) - 一个多智能体编排终端工具，用来组织和管理更复杂的 AI 任务流。
+- [GrapeRoot](items/graperoot.md) - 一个给 Claude Code、Codex CLI、Cursor 等 AI coding assistants 预加载相关代码上下文的上下文引擎，主打降低 token 成本、减少探索回合并提升代码问答效率。
 - [gstack](items/gstack.md) - 一个把 Claude Code 组织成虚拟创业团队的软件工厂框架，用 23 个 skills 把产品规划、设计、实现、审核、测试、发布、监控和复盘串成完整工程闭环。
 - [Haystack](items/haystack.md) - 一个面向 RAG、搜索与 Agent 应用的开源框架，适合搭建可检索问答和知识工作流。
 - [Helicone](items/helicone.md) - 一个开源 AI Gateway 与 LLM 可观测性平台，适合统一接入多模型、追踪成本延迟并管理 Prompt。
@@ -159,6 +160,7 @@
 - [MemPalace](items/mempalace.md) - 一个面向 Claude Code、Cursor 等 AI 助手的本地记忆系统，用原始对话、项目资料和 MCP 工具把长期上下文接回开发工作流。
 - [Milvus](items/milvus.md) - 可扩展向量数据库，适合大规模商品库检索。
 - [MindFS](items/mindfs.md) - 一个把 Claude Code、Codex、Cursor 等本地 Agent CLI 通过浏览器远程接入项目目录和工作站文件的自托管网关，支持多设备访问、实时流式结果和文件联动。
+- [Motus](items/motus.md) - 一个面向 agent 构建、服务和部署的开源运行时与 serving 项目，适合把本地 agent、任务图执行和云部署收进同一条工程链路。
 - [mux](items/mux.md) - 一个用于隔离环境并行开发的工具，帮助多个 AI 编程会话互不干扰地同时推进。
 - [n8n-as-code](items/n8n-as-code.md) - 一个把 n8n 低代码工作流转成代码管理的工具，便于版本控制和长期维护。
 - [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
@@ -208,6 +210,7 @@
 
 适合把 AI 深度嵌进编辑、导航、补全和多会话开发环境的工具。
 
+- [con](items/con.md) - 一个带内置 AI harness 的原生终端应用，适合把 SSH、tmux 和 agent-native workflows 收进同一套开发者工作台。
 - [Cursor](items/cursor.md) - 一个 AI 原生代码编辑器与开发工作台，提供智能体、代码审查、Tab 自动补全、云端 Agent 和多模型选择，支持从协作编辑到更自主的端到端开发。
 - [Emdash](items/emdash.md) - 一个面向多 coding agent 并行协作的 agentic development environment，可在本地或 SSH 远程仓库中隔离 worktree、跑任务、看 diff、测代码和提 PR。
 - [Ghostty](items/ghostty.md) - 一个强调原生 UI、性能和现代终端体验的终端应用，适合作为开发者日常 AI coding 工作台、长会话 shell 与终端协作底座。
@@ -250,6 +253,7 @@
 - [Markdown Viewer Skills](items/markdown-viewer-skills.md) - 一个面向 AI coding agents 的技能仓库，提供图表、架构图、流程图、信息卡片和 Markdown 可视化技能，帮助代理直接生成更专业的技术文档与图示。
 - [MarkItDown](items/markitdown.md) - 微软开源的文件转 Markdown 工具，适合做 Office 文档和杂格式资料的统一转换层，但在 PDF 标题与表格保真上明显偏弱。
 - [Skill Seekers](items/skill-seekers.md) - 一个把文档站、GitHub 仓库、PDF、视频等多源资料转换成 Claude Skill、RAG 文档和 IDE AI 上下文的数据层工具。
+- [Wikiwise](items/wikiwise.md) - 一个让 coding agent 持续维护 Markdown wiki 的原生 macOS 应用，适合把项目资料、研究笔记和来源文档沉淀成可浏览、可发布的知识库。
 
 ### Code Search / Refactoring
 
