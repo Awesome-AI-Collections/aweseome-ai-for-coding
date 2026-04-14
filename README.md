@@ -164,6 +164,7 @@
 - [Nango](items/nango.md) - 一个把 AI agents、产品集成和 700+ SaaS/API 连接到一起的开源集成平台，适合做 CRM、邮件、客服和业务系统自动化。
 - [NetEase Skills](items/netease-skills.md) - 网易云音乐团队维护的 agent skills 仓库，提供可供 Claude Code 等工具安装的技能包，包括 ncm-cli 等音乐相关能力。
 - [Nezha](items/nezha.md) - 一个 Agent-First 的轻量桌面应用，用来在多个项目间并行运行 Claude Code 和 Codex，并把任务跟踪、终端、会话回放、代码浏览和 Git 工作流整合到同一个界面里。
+- [Octogent](items/octogent.md) - 一个面向 Claude Code 的多 agent 编排工作台，用 tentacles、todo.md、本地 API 和 UI 把多终端协作、子代理分工与上下文管理收进同一套开发界面。
 - [oh-my-claudecode](items/oh-my-claudecode.md) - 一个面向 Claude Code 的零学习曲线多 Agent 编排插件，提供 `/team`、`/autopilot`、`/deep-interview` 等技能和 CLI worker 流程，把规划、执行、验证和多模型协作收进统一工作流。
 - [Ollama](items/ollama.md) - 本地大模型运行工具，适合离线外贸助手。
 - [openapi-to-mcpserver](items/openapi-to-mcpserver.md) - 一个把 OpenAPI 文档自动转换成 Higress 远程 MCP server 配置的工具，适合把 Amazon、Alibaba、Shopify 等平台 API 快速变成 AI 可调用能力。
