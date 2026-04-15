@@ -234,6 +234,12 @@
 - [Loopwise](items/loopwise.md) - 一个让 Claude Code 和 Codex CLI 反复交叉审查计划与代码的 review loop 工具，适合把第二视角审查接进开发流程。
 - [PR-Agent](items/pr-agent.md) - Qodo 社区维护的开源 PR 审查 agent，可在 GitHub、GitLab 等平台自动生成 review、improve 和 ask 反馈。
 
+### Debugging
+
+适合辅助排障、日志分析、根因定位和故障修复的工具。
+
+- [Anything Analyzer](items/anything-analyzer.md) - 一个把浏览器 CDP、MITM 抓包和 AI 分析串起来的桌面工具，可统一捕获网页、桌面应用、CLI、脚本和移动端流量，并自动生成协议逆向、安全审计和加密分析结果。
+
 ### Testing
 
 适合测试生成、端到端验证、回归检查和质量门禁的工具。
@@ -265,7 +271,6 @@
 
 ## 后续补充方向
 
-- `Debugging`: 适合辅助排障、日志分析、根因定位和故障修复的工具。
 - `DevOps / CI / Release`: 适合部署、CI、发布、运维与环境交付相关的工具。
 - `Prompt Patterns for Coding`: 适合沉淀编码提示词、spec-driven 流程和上下文模式的工具。
 
