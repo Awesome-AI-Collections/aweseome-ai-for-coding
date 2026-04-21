@@ -109,6 +109,7 @@
 - [Agenta](items/agenta.md) - 一个开源 LLMOps 平台，把 Prompt 管理、评测和可观测性整合到同一套产品与工程协作流程里。
 - [AgentHandover](items/agenthandover.md) - 一个在 macOS 上录制真实工作流程、自动生成可自我改进 skills，并交给 Claude Code、Codex、OpenClaw、Hermes 等 agent 执行的工作交接工具。
 - [AI Website Cloner Template](items/ai-website-cloner-template.md) - 一个面向 AI coding agents 的网站反向工程模板，能把任意网站重建为干净、可运行的 Next.js + TypeScript 代码库。
+- [AnyCrawl](items/anycrawl.md) - 一个支持 scrape、crawl、SERP 和 LLM JSON 抽取的高性能爬取工具包，适合搭建面向 AI 工作流的数据采集层。
 - [Apify MCP Server](items/apify-mcp-server.md) - 一个把 5,000+ Apify Actors 通过 MCP 暴露给 AI agents 的接入层，适合把网页抓取和站点自动化能力接进工程流程。
 - [Automagik Omni](items/automagik-omni.md) - 一个为 AI agents 提供 WhatsApp、Discord、Telegram 等多渠道接入的事件驱动平台，适合做跨社媒和消息渠道的统一 Agent 接入层。
 - [awesome-ai-devtools](items/awesome-ai-devtools.md) - 一个系统梳理 AI 编程生态的精选合集，覆盖 IDE、终端代理、代码审查、测试自动化与多智能体基础设施。
@@ -126,6 +127,7 @@
 - [cmux](items/cmux.md) - 一个面向 macOS 的多智能体终端，可在大屏上同时监控多个 AI 会话的运行状态。
 - [CodeIsland](items/codeisland.md) - 一个把 AI 编程助手状态显示到 MacBook 刘海屏区域的桌面工具，支持实时查看和授权操作。
 - [CodePilot](items/codepilot.md) - 一个多模型 AI Agent 桌面客户端，支持多 provider、MCP、Skills、文件浏览、Git 面板和远程桥接，适合把编码型 Agent 作为日常桌面工作台来用。
+- [Cognee](items/cognee.md) - 一个把向量检索、知识图谱和持久记忆组合起来的开源知识引擎，适合给 AI agents 建长期可学习 memory 层。
 - [Composio](items/composio.md) - 一个给 AI agents 提供 1000+ toolkits、MCP 和 SaaS 动作能力的开源 SDK 平台，适合做销售、客服、运营自动化编排。
 - [Compound Engineering Plugin](items/compound-engineering-plugin.md) - 一个把 compound engineering 方法落成插件和跨平台安装工具的技能市场，通过 brainstorm、plan、work、review、compound 五段式循环，把每次工程工作沉淀成未来可复用的能力。
 - [Conductor](items/conductor.md) - 一个原生 macOS 编码 Agent 编排工作台，帮助开发者在本机为 Claude Code 和 Codex 创建隔离 worktree，会话可并行运行，并在同一界面里集中查看进度、审查改动与合并结果。
